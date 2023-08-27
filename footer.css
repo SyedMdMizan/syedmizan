@@ -21,3 +21,21 @@
 .footer .links div {
     padding: 0 20px;
 }
+@media screen and (max-width:410px) {
+  .footer .cc{
+    padding-top: 15px;
+  }
+  .footer .links{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* padding-bottom: 30px; */
+    row-gap: 10px;
+    /* justify-content: space-between; */
+  }
+  .footer{font-size: 12px;}
+}
+@media screen and (max-width:230px) {
+  .footer{
+    font-size: 10px;
+  }
+}
