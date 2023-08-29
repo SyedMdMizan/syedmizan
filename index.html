@@ -23,9 +23,14 @@
     />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./skills.css" />
-    <link rel="stylesheet" href="./projects.css">
-    <link rel="stylesheet" href="./footer.css">
-    <link rel="shortcut icon" href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png">
+    <link rel="stylesheet" href="./projects.css" />
+
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <link
+      rel="shortcut icon"
+      href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png"
+    />
     <title>Syed Mizan</title>
   </head>
   <body>
@@ -38,8 +43,8 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">About</a></li>
+          <li><a href="#foot">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -60,7 +65,7 @@
         <a target="_blank" href="https://github.com/SyedMdMizan"
           ><i class="fa-brands fa-github fa-2x"></i
         ></a>
-        <a target="_blank" href=""
+        <a target="_blank" href="https://www.instagram.com/syed_mohammad_mizan/"
           ><i class="fa-brands fa-instagram fa-2x"></i
         ></a>
         <a
@@ -143,49 +148,66 @@
     <hr class="endPage" />
     <section id="projects">
       <div>
-        <p class="sub-heading"><b>Projects</b></p><br/>
+        <p class="sub-heading"><b>Projects</b></p>
+        <br />
       </div>
       <div class="card">
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="./logo/hospital.avif" alt="Avatar">
-              <h1>AEC Healthcare</h1> 
+              <img src="./logo/hospital.avif" alt="Avatar" />
+              <h1>AEC Healthcare</h1>
             </div>
             <div class="flip-card-back">
-              <p><br/><b>AEC Healthcare</b></p> <br/>
-              <p>AEC Healthcare is a Hospital Management System Built as a dynamic web
-                application using Java, Servlet, MySQL, JSP and HTML/CSS with 4 team
-                members. It has admin module, user module and doctor module.</p>
-                <a href="https://github.com/SyedMdMizan/AEC-Healthcare" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <p><br /><b>AEC Healthcare</b></p>
+              <br />
+              <p>
+                AEC Healthcare is a Hospital Management System Built as a
+                dynamic web application using Java, Servlet, MySQL, JSP and
+                HTML/CSS with 4 team members. It has admin module, user module
+                and doctor module.
+              </p>
+              <a
+                href="https://github.com/SyedMdMizan/AEC-Healthcare"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </div>
           </div>
         </div>
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="logo/tollmart.jpg" alt="Avatar">
-              <h1>TollMart</h1> 
+              <img src="logo/tollmart.jpg" alt="Avatar" />
+              <h1>TollMart</h1>
             </div>
             <div class="flip-card-back">
-              <p><br/><b>Tollmart</b></p> <br/>
-              <p>Tollmart is an E-commerce project where three types of login admin, seller and
-                customer, any seller can register and sell their product to this website. the
-                project is built on MERN stack with 4 team members.</p>
+              <p><br /><b>Tollmart</b></p>
+              <br />
+              <p>
+                Tollmart is an E-commerce project where three types of login
+                admin, seller and customer, any seller can register and sell
+                their product to this website. the project is built on MERN
+                stack with 4 team members.
+              </p>
             </div>
           </div>
         </div>
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="./logo/heart.webp" alt="Avatar">
-              <h1>EKG</h1> 
+              <img src="./logo/heart.webp" alt="Avatar" />
+              <h1>EKG</h1>
             </div>
             <div class="flip-card-back">
-              <p><br/><b>EKG</b></p> <br/> 
-              <p>Responsible to Developed overall Application Heart rate taken from Apple
-                watch and store in apple cloud then fetch data from clouds and display the
-                graph to doctor and next process will be managed like CRM.</p>
+              <p><br /><b>EKG</b></p>
+              <br />
+              <p>
+                Responsible to Developed overall Application Heart rate taken
+                from Apple watch and store in apple cloud then fetch data from
+                clouds and display the graph to doctor and next process will be
+                managed like CRM.
+              </p>
             </div>
           </div>
         </div>
@@ -194,29 +216,110 @@
     <!-- <section id="about">
 
     </section> -->
-    <hr class="endPage" />
+    <!-- <hr class="endPage" /> -->
     <section id="contact">
-      <div>
-
-        <img src="./logo/icons8-danger-96.png" alt="" /><br />coming soon
+      <div class="container">
+        <div class="contact-info">
+          <h2>
+            Let's chat.<br />
+            Tell me about your project.
+          </h2>
+          <p>
+            Let's create something together
+            <img
+              class="victory"
+              src="./logo/icons8-victory-hand-96.png"
+              alt=""
+            />
+            <br />or just to say hello!
+          </p>
+          <p>
+            <br/>
+            <a id="xyz" href="mailto:syedmizan19@gmail.com" target="_blank"
+              ><i class="fa-solid fa-envelope fa-2x"></i> Send Mail</a>
+          </p>
+        </div>
+        <div class="contact-form">
+          <form action="./server/mailto.php" method="post">
+            <table>
+              <thead>
+                <th>Message Me!</th>
+              </thead>
+              <tbody>
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </td>
+              </tr>
+          
+              <tr>
+                <td>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+              <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    required
+                    maxlength="500"
+                    rows="4"
+                    
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button  class="submitbtn" type="submit"><b>Send Message</b></button>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
       </div>
     </section>
     <hr class="endPage" />
     <div class="button">
       <a href="#home"><i class="fas fa-arrow-up"></i></a>
     </div>
-    <div class="footer">
+    <div id="foot" class="footer">
       <div class="cc">
-
-        <i class="fa-regular fa-copyright"></i>All Right reserved<br/>
-        Designed & Developed by <b>Syed Mizan</b><br/><br/>
+        <i class="fa-regular fa-copyright"></i>All Right reserved<br />
+        Designed & Developed by <b>Syed Mizan</b><br /><br />
       </div>
       <div class="links">
-
-        <div><a href="https://www.linkedin.com/in/syed-mohammad-mizan/"><i class="fa-brands fa-linkedin fa-2x"></i></a></div>
-        <div><a href="https://github.com/SyedMdMizan"><i class="fa-brands fa-github fa-2x"></i></a></div>
-        <div><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></div>
-        <div><a href="https://www.facebook.com/syed.mizan.23?mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-2x"></i></a></div>
+        <div>
+          <a href="https://www.linkedin.com/in/syed-mohammad-mizan/"
+            ><i class="fa-brands fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+        <div>
+          <a href="https://github.com/SyedMdMizan"
+            ><i class="fa-brands fa-github fa-2x"></i
+          ></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/syed_mohammad_mizan/"
+            ><i class="fa-brands fa-instagram fa-2x"></i
+          ></a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/syed.mizan.23?mibextid=ZbWKwL"
+            ><i class="fa-brands fa-facebook fa-2x"></i
+          ></a>
+        </div>
       </div>
     </div>
   </body>

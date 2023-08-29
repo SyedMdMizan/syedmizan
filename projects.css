@@ -7,6 +7,9 @@
   padding-bottom: 50px;
   margin: auto;
 }
+.flip-card-front h1{
+    color: rgba(75, 73, 73, 1);
+}
 #projects div .sub-heading {
   /* padding-bottom: 50px; */
   background: -webkit-linear-gradient(rgb(0, 0, 255), rgb(27, 4, 75));
