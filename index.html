@@ -31,31 +31,6 @@
       rel="shortcut icon"
       href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png"
     />
-    <script type="text/javascript">
-      var submitted = false;
-
-      function showPopup() {
-        if (submitted) {
-          var popup = document.createElement("div");
-          popup.id = "popup";
-        popup.style.position = "fixed";
-        popup.style.top = "15%";
-        popup.style.borderRadius = "20px";
-        popup.style.left = "50%";
-        popup.style.transform = "translate(-50%, -50%)";
-        popup.style.backgroundColor = "rgb(230, 225, 225)";
-        popup.style.padding = "20px";
-        popup.style.border = "3px solid green";
-        popup.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
-        popup.innerHTML = "<p>Syed Mizan will get in touch with you soon.</p>";
-        document.body.appendChild(popup);
-
-        setTimeout(function() {
-            popup.style.display = "none";
-        }, 5000);
-        }
-      }
-    </script>
     <title>Syed Mizan</title>
   </head>
   <body>
@@ -268,10 +243,9 @@
         <div class="contact-form">
           <form
             id="myForm"
-            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScx3Bcx4aHAXTB2zk8Hzp5qVz8YOu37LmrVNq9G7Ej7iaZ63Q/formResponse"
+            action="mailto:syedmizan23@gmail.com?subject=Contact%20Form&body=$Message"
             method="post"
-            target="hidden_iframe"
-            onsubmit="submitted=true;"
+            enctype="text/plain"
           >
             <table>
               <thead>
@@ -282,7 +256,7 @@
                   <td>
                     <input
                       type="text"
-                      name="entry.2005620554"
+                      name="Name"
                       placeholder="Your Name"
                       required
                     />
@@ -293,7 +267,7 @@
                   <td>
                     <input
                       type="email"
-                      name="entry.1045781291"
+                      name="email"
                       placeholder="Your Email"
                       required
                     />
@@ -302,7 +276,7 @@
                 <tr>
                   <td>
                     <textarea
-                      name="entry.1065046570"
+                      name="Message"
                       placeholder="Your Message"
                       required
                       maxlength="500"
@@ -320,20 +294,6 @@
               </tbody>
             </table>
           </form>
-          <iframe
-            name="hidden_iframe"
-            id="hidden_iframe"
-            style="display: none"
-          ></iframe>
-
-          <script type="text/javascript">
-            var form = document.getElementById("myForm");
-            form.addEventListener("submit", function () {
-              submitted = true;
-              window.scrollTo(0, 0);
-              showPopup();
-            });
-          </script>
         </div>
       </div>
     </section>
