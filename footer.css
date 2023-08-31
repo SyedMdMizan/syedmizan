@@ -28,9 +28,7 @@
   .footer .links{
     display: grid;
     grid-template-columns: auto auto;
-    /* padding-bottom: 30px; */
     row-gap: 10px;
-    /* justify-content: space-between; */
   }
   .footer{font-size: 12px;}
 }
