@@ -21,6 +21,7 @@
 }
 .contact-info h2 {
   color: rgba(75, 73, 73, 1);
+  font-size: 30px;
 }
 .contact-form form input {
   width: 100%;
